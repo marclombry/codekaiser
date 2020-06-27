@@ -18,7 +18,7 @@ h1{
   /*background-image: url("https://t4.ftcdn.net/jpg/03/14/94/57/240_F_314945795_QYNG62DLxwaBJ5WVvJgvvFUDyK8YR5bh.jpg");*/
  
   /*background-image: url("https://cdn.pixabay.com/photo/2016/05/03/16/15/gold-1369453__480.jpg");*/
-  background-image: url("/img/moon.jpg");
+  background-image: url("./moon.jpg");
   /*background-size: cover;*/
   background-clip: text;
   -webkit-background-clip: text;
