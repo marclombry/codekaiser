@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/codekaiser/static/css/main.6248add3.chunk.css",
+    "main.css": "/codekaiser/static/css/main.05f1f349.chunk.css",
     "main.js": "/codekaiser/static/js/main.ac8ba9f7.chunk.js",
     "main.js.map": "/codekaiser/static/js/main.ac8ba9f7.chunk.js.map",
     "runtime-main.js": "/codekaiser/static/js/runtime-main.980c4d4b.js",
@@ -8,16 +8,17 @@
     "static/js/2.f199bdf5.chunk.js": "/codekaiser/static/js/2.f199bdf5.chunk.js",
     "static/js/2.f199bdf5.chunk.js.map": "/codekaiser/static/js/2.f199bdf5.chunk.js.map",
     "index.html": "/codekaiser/index.html",
-    "precache-manifest.9e961e2b24de2c4d3679923bc261b3bf.js": "/codekaiser/precache-manifest.9e961e2b24de2c4d3679923bc261b3bf.js",
+    "precache-manifest.fd3c7f18f54e98b05af35550d857c021.js": "/codekaiser/precache-manifest.fd3c7f18f54e98b05af35550d857c021.js",
     "service-worker.js": "/codekaiser/service-worker.js",
-    "static/css/main.6248add3.chunk.css.map": "/codekaiser/static/css/main.6248add3.chunk.css.map",
+    "static/css/main.05f1f349.chunk.css.map": "/codekaiser/static/css/main.05f1f349.chunk.css.map",
     "static/js/2.f199bdf5.chunk.js.LICENSE.txt": "/codekaiser/static/js/2.f199bdf5.chunk.js.LICENSE.txt",
-    "static/media/kaiser.jpg": "/codekaiser/static/media/kaiser.38a00d05.jpg"
+    "static/media/kaiser.jpg": "/codekaiser/static/media/kaiser.38a00d05.jpg",
+    "static/media/App.css": "/codekaiser/static/media/moon.4f670243.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.980c4d4b.js",
     "static/js/2.f199bdf5.chunk.js",
-    "static/css/main.6248add3.chunk.css",
+    "static/css/main.05f1f349.chunk.css",
     "static/js/main.ac8ba9f7.chunk.js"
   ]
 }
