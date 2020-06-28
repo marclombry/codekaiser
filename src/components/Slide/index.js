@@ -12,7 +12,7 @@ class Slide extends Component {
         return (
             <div className="img-background">
                 <h1 className="slide-title">{this.state.slidetitle}</h1>
-                <div className="catchphrase">{this.state.catchphrase}</div>
+                <div className="catchphrase text-intro">{this.state.catchphrase}</div>
             </div>
         )
     }

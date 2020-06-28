@@ -9,7 +9,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <div className="bg-emerald display-flex flex-wrap justify-content-space-around">
+            <div className="bg-peter-river display-flex flex-wrap justify-content-space-around">
                 <ul className="list-none ">
                     <li><a href="https://www.marclombry.com/" className="no-deco cloud">Contactez nous</a></li>
                     <li className="cloud" onClick={this.displayMention}>Mentions légales</li>

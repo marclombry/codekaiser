@@ -5,29 +5,39 @@ body{
 }
 
 h1{
-
-
   font-family: 'Roboto', sans-serif;
   font-size:12em;
-  /*background-image: url("https://cdn.pixabay.com/photo/2019/09/12/07/25/fire-4470817__480.jpg");*/
-  /*background-image: url("https://cdn.pixabay.com/photo/2020/06/08/03/35/landscape-5272817_1280.jpg");*/
-  /*background-image: url("https://cdn.pixabay.com/photo/2016/11/22/23/15/cliff-1851113__480.jpg");*/
-  /*background-image: url("https://cdn.pixabay.com/photo/2019/09/12/07/25/fire-4470817__480.jpg");*/
-  /*background-image: url("https://cdn.pixabay.com/photo/2019/09/12/07/25/fire-4470817__480.jpg");*/
- 
-  /*background-image: url("https://t4.ftcdn.net/jpg/03/14/94/57/240_F_314945795_QYNG62DLxwaBJ5WVvJgvvFUDyK8YR5bh.jpg");*/
- 
-  /*background-image: url("https://cdn.pixabay.com/photo/2016/05/03/16/15/gold-1369453__480.jpg");*/
   background-image: url("./moon.jpg");
   /*background-size: cover;*/
   background-clip: text;
   -webkit-background-clip: text;
   color:transparent;
 }
+h2{
+	text-decoration: underline;
+	color: black;
+}
+.text-intro{
+	font-size: 2em;
+	background-color:var(--peter-river);
+	margin: auto;
+	max-width: 460px;
+	padding: 10px;
+	
+}
 
+.icon-moon{
+
+	background-image: url("./moon.jpg");
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color:transparent;
+	text-decoration: underline;
+  }
 
 .dev{
-	background-color: var(--emerald);
+	background-color: var(--peter-river);
 	padding: 10px;
 	width: 100px;
 	margin: auto;
@@ -824,3 +834,31 @@ h1{
 .dracula-orchid{color:var(--dracula-orchid);}
 .black{color:black;}
 .white{color:white;}
+
+@media (max-width: 650px){
+	h1{
+
+
+		font-family: 'Roboto', sans-serif;
+		font-size:2em;
+		
+		background-image: url("./moon.jpg");
+		/*background-size: cover;*/
+		background-clip: text;
+		-webkit-background-clip: text;
+		color:transparent;
+	  }
+
+	.title-box{
+		font-size: 2em;
+		font-weight: bold;
+	}
+
+	.text-intro{
+		font-size: 1em;
+		background-color: aqua;
+		margin: auto;
+		max-width: 300px;
+		padding: 10px;
+	}
+}
