@@ -11,8 +11,8 @@ class Menu extends Component {
             <div className={nav}>
                 <img src={phenix} height="60px" alt="logo code kaiser"/>
                 <ul className="display-flex  list-none"> 
-                    <li className="padding0-10 "><a className="no-deco asbestos" href="/?#developpement">Developpement</a></li>
-                    <li className="padding0-10 "><a className="no-deco asbestos" href="/?#consulting">Consulting</a></li>
+                    <li className="padding0-10 "><a className="no-deco asbestos" href="?#developpement">Developpement</a></li>
+                    <li className="padding0-10 "><a className="no-deco asbestos" href="?#consulting">Consulting</a></li>
                 </ul>
             </div>
         )
