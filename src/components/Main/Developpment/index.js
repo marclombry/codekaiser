@@ -1,74 +1,106 @@
 import React, { Component } from 'react';
 //import Competence from '../Competence';
+import { FaCode } from "react-icons/fa";
+import { FaCog } from "react-icons/fa";
+import { FaDesktop } from "react-icons/fa";
+import { FaDatabase } from "react-icons/fa";
+import { FaCodeBranch } from "react-icons/fa";
+import { FaEdit } from "react-icons/fa";
+
+
 
 class Developpment extends Component {
 
     state = {
         web: [
             {
-                icon:'<i class="icofont-imac"></i>',
+                icon:<FaDesktop size='6em' color='red' />,
                 title:'CREATION DE SITE INTERNET',
-                phrase:'Réalisation de site vitrine , dynamique ou e-commerce'
+                phrase:'Réalisation de site vitrine , dynamique ou e-commerce',
+                link:''
             },
             {
-                icon:'<i class="icofont-brainstorming"></i>',
+                icon:<FaCog size='6em' color='red' />,
                 title:'CONCEPTION',
-                phrase:"Vous avez envie de crée une application mais vous ne savez pas par quoi commencer ?  pas de problème, on s' occupe de la concéption de vos projet"
+                phrase:"Vous avez envie de crée une application mais vous ne savez pas par quoi commencer ?  pas de problème, on s' occupe de la concéption de vos projet",
+                link:''
             },
             {
+                icon:<FaCodeBranch size='6em' color='red' />,
                 title:'DEVELOPPEMENT',
-                phrase:'Un projet web où mobile a concrétisé ? ou tout simplement besoin de renfort sur vos équipes?'
+                phrase:'Un projet web où mobile a concrétisé ? ou tout simplement besoin de renfort sur vos équipes?',
+                link:''
             },
             {
-                icon:'<i class="icofont-data"></i>',
+                icon:<FaDatabase size='6em' color='red' />,
                 title:'DATA',
-                phrase:'Vous cherchez à optimiser votre code ou vos requêtes Sql? Nous vous proposons un audit sur mesure '
+                phrase:'Vous cherchez à optimiser votre code ou vos requêtes Sql? Nous vous proposons un audit sur mesure ',
+                link:''
             }
             
         ],
         audit: [
             {
-                icon:'<i class="icofont-listening"></i>',
+                icon:<FaEdit size='6em' color='red' />,
                 title:'AUDIT',
-                phrase:'Ou en êtes vous dans la transformation digital ? Nos Experts sont la pour vous guidé dans cette transformation.'
+                phrase:'Ou en êtes vous dans la transformation digital ? Nos Experts sont la pour vous guidé dans cette transformation.',
+                link:''
             },
             {
-                icon:'<i class="icofont-listening"></i>',
-                title:'AUDIT',
-                phrase:'Vous cherchez à optimiser votre code ou vos requêtes Sql? Nous vous proposons un audit sur mesure '
+                icon:<FaCode size='6em' color='red' />,
+                title:'CODE REVIEW',
+                phrase:'Vous cherchez à optimiser votre code ou vos requêtes Sql? Nous vous proposons un audit sur mesure ',
+                link:''
             },
-        ]
+            {
+                icon:<FaCode size='6em' color='red' />,
+                title:'Formation',
+                phrase:'Vous chercher une mise a niveau ou acquérir de nouvelle compétence ? Suivez nos formations ou optez pour une formations "sur mesure"',
+                link:''
+            },
+        ],
+
+        display:false
     }
+
+    showFormation(e){
+       
+      
+    }
+
     render(){
 
         const {web, audit} = this.state;
-        let webs ='';
-      
-           
+        
         
         //console.log(web,audit)
         return(
             <div>
-                <h2>Développement</h2>
+                <h2 id="developpement">Développement</h2>
+                <div>
                 {  web.map((index) => (
-                        <div>
+                        <div key={index}>
                             {index.icon}
-                            <h2>{index.title}</h2>
+                            <h3>{index.title}</h3>
                             <p>{index.phrase}</p>
                         </div>
                     ))
                     
                 }
-                <h2>Consulting</h2>
+                </div>
+                <div>
+                <h2 id="consulting">Consulting</h2>
                 {  audit.map((index) => (
-                        <div>
+                        <div key={index}>
                             {index.icon}
-                            <h2>{index.title}</h2>
+                            <h3>{index.title}</h3>
                             <p>{index.phrase}</p>
+                            <p onClick={this.showFormation}>formation</p>
                         </div>
                     ))
                     
                 }
+                </div>
             </div>
         )
     }
