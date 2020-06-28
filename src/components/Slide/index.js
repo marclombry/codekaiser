@@ -8,7 +8,7 @@ class Slide extends Component {
     }
    
     render() {
-        console.log(this.props);
+    
         return (
             <div className="img-background">
                 <h1 className="slide-title">{this.state.slidetitle}</h1>
