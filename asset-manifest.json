@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/codekaiser/static/css/main.b009f7ef.chunk.css",
-    "main.js": "/codekaiser/static/js/main.b7d11624.chunk.js",
-    "main.js.map": "/codekaiser/static/js/main.b7d11624.chunk.js.map",
+    "main.css": "/codekaiser/static/css/main.5398ecba.chunk.css",
+    "main.js": "/codekaiser/static/js/main.0e50a33a.chunk.js",
+    "main.js.map": "/codekaiser/static/js/main.0e50a33a.chunk.js.map",
     "runtime-main.js": "/codekaiser/static/js/runtime-main.980c4d4b.js",
     "runtime-main.js.map": "/codekaiser/static/js/runtime-main.980c4d4b.js.map",
     "static/js/2.812f7115.chunk.js": "/codekaiser/static/js/2.812f7115.chunk.js",
     "static/js/2.812f7115.chunk.js.map": "/codekaiser/static/js/2.812f7115.chunk.js.map",
     "index.html": "/codekaiser/index.html",
-    "precache-manifest.2db4e97a7f3c5046d9736cebb14a72aa.js": "/codekaiser/precache-manifest.2db4e97a7f3c5046d9736cebb14a72aa.js",
+    "precache-manifest.fd0d567340efd84f005b4c598b0b9278.js": "/codekaiser/precache-manifest.fd0d567340efd84f005b4c598b0b9278.js",
     "service-worker.js": "/codekaiser/service-worker.js",
-    "static/css/main.b009f7ef.chunk.css.map": "/codekaiser/static/css/main.b009f7ef.chunk.css.map",
+    "static/css/main.5398ecba.chunk.css.map": "/codekaiser/static/css/main.5398ecba.chunk.css.map",
     "static/js/2.812f7115.chunk.js.LICENSE.txt": "/codekaiser/static/js/2.812f7115.chunk.js.LICENSE.txt",
     "static/media/kaiser.jpg": "/codekaiser/static/media/kaiser.38a00d05.jpg",
     "static/media/App.css": "/codekaiser/static/media/moon.4f670243.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.980c4d4b.js",
     "static/js/2.812f7115.chunk.js",
-    "static/css/main.b009f7ef.chunk.css",
-    "static/js/main.b7d11624.chunk.js"
+    "static/css/main.5398ecba.chunk.css",
+    "static/js/main.0e50a33a.chunk.js"
   ]
 }
