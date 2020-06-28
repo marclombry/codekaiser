@@ -30,6 +30,12 @@ h1{
   
 }
 
+.block-consulting{
+	background-image: url("./moon.jpg");
+	height:500px;
+	background-attachment: fixed;
+	background-size:cover;
+}
 
 
 .App {
