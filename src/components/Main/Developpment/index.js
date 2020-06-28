@@ -70,37 +70,29 @@ class Developpment extends Component {
 
     render(){
 
-        const {web, audit} = this.state;
+        const {web} = this.state;
         
         
         //console.log(web,audit)
         return(
             <div>
                 <h2 id="developpement">Développement</h2>
-                <div>
-                {  web.map((index) => (
-                        <div key={index}>
-                            {index.icon}
-                            <h3>{index.title}</h3>
-                            <p>{index.phrase}</p>
-                        </div>
-                    ))
-                    
-                }
+                <div className="display-flex flex-wrap-wrap justify-content-space-around">
+                   
+                    {  web.map((index) => (
+                            <div key={index} className="width400px">
+                                {index.icon}
+                                <h3>{index.title}</h3>
+                                <p>{index.phrase}</p>
+                            </div>
+                        ))
+                        
+                    }
+                   
                 </div>
-                <div>
-                <h2 id="consulting">Consulting</h2>
-                {  audit.map((index) => (
-                        <div key={index}>
-                            {index.icon}
-                            <h3>{index.title}</h3>
-                            <p>{index.phrase}</p>
-                            <p onClick={this.showFormation}>formation</p>
-                        </div>
-                    ))
-                    
-                }
-                </div>
+                
+
+               
             </div>
         )
     }
