@@ -4,7 +4,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <div>
+            <div class="bg-emerald">
                 footer
             </div>
         )

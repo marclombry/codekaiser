@@ -10,12 +10,17 @@ class Main extends Component {
             <div>
                 <Developpment />
                 <Block 
-                    class="emerald block-consulting" 
-                    text="Vous rechercher un dev ?"
-                    
+                    class="emerald block-consulting display-flex" 
+                    text="< Vous rechercher un dev ? />"
+                    name="Mon Dev"
                 />
-                <Consultant />
                 
+                <Consultant />
+                <Block 
+                    class="emerald block-consulting display-flex" 
+                    text="< Besoin d'un Consultant ? />"
+                    name="Mon Consultant"
+                />
             </div>
         )
     }

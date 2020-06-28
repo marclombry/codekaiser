@@ -26,8 +26,14 @@ h1{
 }
 
 
-.menu{
-  
+.dev{
+	background-color: var(--emerald);
+	padding: 10px;
+	width: 100px;
+	margin: auto;
+	font-size: 1.5em;
+	color: var(--cloud);
+	font-weight: bold;
 }
 
 .block-consulting{
@@ -163,7 +169,10 @@ h1{
 .title-nav-footer{}
 .title-content{}
 .title-paragraph{}
-.title-box{}
+.title-box{
+	font-size: 5em;
+	font-weight: bold;
+}
 .title-logo{}
 .title-product{}
 .title-article{}
